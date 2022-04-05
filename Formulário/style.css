@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    background-color: #cecece;
+    font-family: 'ROBOTO';
+}
+
+h1 {
+    font-size: 35px;
+    margin-top: 3px;
+}
+
+/* Conteudo*/
+.container-form {
+    padding: 1rem;
+    width: 70%;
+    height: 80%;
+    border: 5px solid black;
+    border-radius: 3%;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 10%);
+    font-size: 30px;
+}
+
+/* Conteudo que contem login, nome e senha*/
+.form {
+    float: left;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+/*Imagem*/
+#img{ 
+    float: left;
+    width: 60%;
+    height: 100%;
+}
+
+/**/
+.form-group {
+    padding: 1rem;
+}
+
+label {
+    display: block;
+    font-size: 'ROBOT';
+    font-size: 23px;
+}
+
+.cx {
+    width: 110%;
+    height: 10%;
+}
+
+.h4 {
+    font-size: 12px;
+    float: right;
+}
+
+.btn {
+    width: 50%;
+    height: 15%;
+    text-align: center;
+    font-size: 15px;
+}
+
+.btn:hover {
+    background-color:tomato
+}

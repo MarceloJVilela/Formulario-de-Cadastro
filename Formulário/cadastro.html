@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tela de cadastro</title>
+</head>
+<body>
+        <main class="container-form">
+            <img src="img/teste01.png" id="img">
+            <a href="index.html" class="h4">Login</a>
+            <h1>Cadastrar-se</h1>
+            <form action="" method="post" name="formulario" class="form">
+                <div class="form-group">
+                    <label>E-mail</label>
+                    <input type="email" class="cx" id="email" autofocus required>
+                </div>
+
+                <div class="form-group">
+                    <label>Nome</label>
+                    <input type="text" class="cx" id="nome" autofocus required>
+                </div>
+
+                <div class="form-group">
+                    <label>Senha</label>
+                    <input type="password" class="cx" id="senha" autofocus required>
+                </div>
+
+                <button onclick="cadastrar()" class="btn">Cadastrar-se</button>
+            
+            </form>
+        </main>
+        <script src="script.js"></script>
+    </body>
+</html>
